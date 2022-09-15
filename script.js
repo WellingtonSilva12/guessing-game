@@ -20,7 +20,6 @@ function submitForm(e) {
   console.log(
     `Input Number: ${inputNumber.value}\nAttempts: ${xAttempts}\nRandom Number: ${randomNumber}`
   )
-
   inputNumber.value = ''
 
   xAttempts++
