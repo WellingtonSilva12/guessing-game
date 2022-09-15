@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #eb9d1e;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  place-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #7879f1;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #5252be;
+}
+.container {
+  text-align: center;
+  padding: 6rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.3rem 0.8rem;
+  width: min(65.8rem, 90%);
+}
+
+.container h1 {
+  font-size: 3.4rem;
+  color: #343558;
+  margin-bottom: 1.8rem;
+}
+
+.container p {
+  font-size: 1.8rem;
+  color: #3435589d;
+  letter-spacing: 1.2px;
+}
+.hide {
+  display: none;
+}
+form {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+input,
+button {
+  border: none;
+  padding: 1.6rem;
+  outline: none;
+}
+
+.screen1 button {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+input {
+  background-color: #dce2e9;
+  width: 5rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: 0.4rem;
+}
