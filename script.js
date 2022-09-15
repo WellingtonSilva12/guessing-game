@@ -15,12 +15,11 @@ function submitForm(e) {
 
   if (Number(inputNumber.value) == randomNumber) {
     toogleScreen()
-
-    showScreen2.querySelector(
-      'h2'
-    ).innerText = `Acertou em ${xAttempts} tentativas`
+    displayResultGame()
   }
-  console.log(xAttempts, randomNumber)
+  console.log(
+    `Input Number: ${inputNumber.value}\nAttempts: ${xAttempts}\nRandom Number: ${randomNumber}`
+  )
 
   inputNumber.value = ''
 
@@ -40,4 +39,9 @@ function toogleScreen() {
 function randomNumberGenerator() {
   let result = Math.round(Math.random() * 10)
   return result
+}
+function displayResultGame() {
+  showScreen2.querySelector(
+    'h2'
+  ).innerText = `Acertou em ${xAttempts} tentativas`
 }
